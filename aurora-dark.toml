@@ -23,7 +23,7 @@ bg4 = "hsl($base, 0.15, 0.36)" # LineNr 2.22:1
 
 grey = "hsl($base, 0.15, 0.56)" # 4.55:1
 
-fg0 = "hsl($base, 0.25, 0.72)"
+fg0 = "hsl($base, 0.25, 0.74)"
 fg1 = "hsl($base, 0.25, 0.82)"
 fg2 = "hsl($base, 0.25, 0.88)"
 
