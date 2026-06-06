@@ -39,6 +39,7 @@ purple = "hsl($purple, 0.75, 0.80)" # -
 filled_red    = "red"
 filled_green  = "green"
 filled_blue   = "blue"
+filled_cyan   = "cyan"
 filled_purple = "purple"
 
 bg_red    = "mix(red, bg0, 0.1)"
@@ -292,7 +293,7 @@ BlinkCmpLabelDeprecated   = "link:Comment"
 
 NvimTreeFolderIcon   = "link:Directory"
 NvimTreeIndentMarker = "link:Directory"
-NvimTreeWindowPicker = "bg0 filled_blue b"
+NvimTreeWindowPicker = "bg0 filled_cyan b"
 NvimTreeRootFolder   = "purple"
 NvimTreeSpecialFile  = "orange"
 NvimTreeExecFile     = "green"
@@ -326,7 +327,7 @@ AgenticSpinnerThinking          = "purple - b"
 AgenticStatusCompleted          = "green"
 AgenticStatusFailed             = "red"
 AgenticStatusPending            = "purple"
-AgenticTitle                    = "bg0 filled_blue b"
+AgenticTitle                    = "bg0 filled_cyan b"
 
 WhichKeyNormal = "fg1 statusline_bg"
 
