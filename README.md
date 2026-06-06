@@ -1,3 +1,3 @@
 # Aurora
 
-Balanced and colorful colorscheme for Neovim.
+Balanced and colorful theme for Neovim.

@@ -8,7 +8,7 @@ red    = 350
 orange = 25
 yellow = 40
 green  = 90
-cyan   = 195
+cyan   = 190
 sky    = 205
 blue   = 220
 purple = 275
@@ -18,23 +18,23 @@ purple = 275
 bg0 = "hsl($base, 0.2, 0.98)" # Main background
 bg1 = "hsl($base, 0.2, 0.95)" # Cursorline
 bg2 = "hsl($base, 0.2, 0.92)" # Statusline/Code snippet bg
-bg3 = "hsl($base, 0.2, 0.88)" # Non text/Pmenu background
-bg4 = "hsl($base, 0.2, 0.78)" # LineNr
+bg3 = "hsl($base, 0.2, 0.86)" # Non text/Pmenu background 1.35:1
+bg4 = "hsl($base, 0.2, 0.72)" # LineNr 2.05:1
 
-grey = "hsl($base, 0.15, 0.50)"
+grey = "hsl($base, 0.15, 0.48)" # 4.6:1
 
-fg0 = "hsl($base, 0.15, 0.40)"
-fg1 = "hsl($base, 0.15, 0.30)"
-fg2 = "hsl($base, 0.15, 0.22)"
+fg0 = "hsl($base, 0.25, 0.40)"
+fg1 = "hsl($base, 0.25, 0.30)"
+fg2 = "hsl($base, 0.25, 0.22)"
 
-red    = "hsl($red, 0.55, 0.45)"
-orange = "hsl($orange, 1, 0.30)"    # Check
-yellow = "hsl($yellow, 1, 0.32)"    # Check
+red    = "hsl($red, 0.55, 0.45)"    # Check
+orange = "hsl($orange, 1, 0.32)"    # Check
+yellow = "hsl($yellow, 1, 0.30)"    # Check
 green  = "hsl($green, 0.75, 0.25)"  # Check
-cyan   = "hsl($cyan, 0.75, 0.30)"
-sky    = "hsl($sky, 0.75, 0.28)"
-blue   = "hsl($blue, 0.55, 0.45)"   # Check
-purple = "hsl($purple, 0.38, 0.50)"
+cyan   = "hsl($cyan, 0.75, 0.30)"   # Check
+sky    = "hsl($sky, 0.75, 0.30)"    # Check
+blue   = "hsl($blue, 0.55, 0.48)"   # Check
+purple = "hsl($purple, 0.38, 0.50)" # Check
 
 filled_red    = "lighten(red, 0.1)"
 filled_green  = "lighten(green, 0.1)"
