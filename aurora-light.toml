@@ -67,7 +67,7 @@ Whitespace  = "bg3"
 Cursor        = "bg0 fg1"
 Cursorline   = "- bg1"
 CursorlineNr = "orange bg1 b"
-ColorColumn  = "- bg1"
+ColorColumn  = "- bg2"
 Folded       = "fg1 bg1"
 LineNr       = "bg4"
 SignColumn   = "link:LineNr"
@@ -326,6 +326,9 @@ AgenticStatusCompleted          = "green"
 AgenticStatusFailed             = "red"
 AgenticStatusPending            = "purple"
 AgenticTitle                    = "bg0 filled_cyan b"
+
+RenderMarkdownCode       = "- bg1"
+RenderMarkdownCodeInline = "- bg2"
 
 WhichKeyNormal = "fg1 statusline_bg"
 
