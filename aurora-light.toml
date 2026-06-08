@@ -17,7 +17,7 @@ purple = 275
 
 bg0 = "hsl($base, 0.2, 0.98)" # Main background
 bg1 = "hsl($base, 0.2, 0.95)" # Cursorline
-bg2 = "hsl($base, 0.2, 0.92)" # Statusline/Code snippet bg
+bg2 = "hsl($base, 0.2, 0.92)" # Statusline/Visual background
 bg3 = "hsl($base, 0.2, 0.86)" # Non text/Pmenu background 1.35:1
 bg4 = "hsl($base, 0.2, 0.72)" # LineNr 2.05:1
 
@@ -47,8 +47,6 @@ bg_green  = "mix(green, bg0, 0.1)"
 bg_yellow = "mix(yellow, bg0, 0.1)"
 bg_blue   = "mix(blue, bg0, 0.1)"
 
-visual_bg = "mix(blue, bg0, 0.15)"
-
 diff_add_bg    = "mix(green, bg0, 0.2)"
 diff_text_bg   = "mix(cyan, bg0, 0.2)"
 diff_delete_bg = "mix(red, bg0, 0.2)"
@@ -69,11 +67,11 @@ Whitespace  = "bg3"
 Cursor        = "bg0 fg1"
 Cursorline   = "- bg1"
 CursorlineNr = "orange bg1 b"
-ColorColumn  = "- bg2"
+ColorColumn  = "- bg1"
 Folded       = "fg1 bg1"
 LineNr       = "bg4"
 SignColumn   = "link:LineNr"
-Visual       = "- visual_bg"
+Visual       = "- bg2"
 WinSeparator = "bg3"
 
 Pmenu      = "fg1 bg3"

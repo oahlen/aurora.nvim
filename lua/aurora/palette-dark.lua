@@ -27,7 +27,6 @@ return {
     bg_green = "#29302e",
     bg_yellow = "#31302f",
     bg_blue = "#262d3a",
-    visual_bg = "#2c3445",
     diff_add_bg = "#374236",
     diff_text_bg = "#31434c",
     diff_delete_bg = "#47343d",
