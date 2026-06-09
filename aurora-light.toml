@@ -52,6 +52,8 @@ diff_text_bg   = "mix(cyan, bg0, 0.2)"
 diff_delete_bg = "mix(red, bg0, 0.2)"
 
 black = "bg2"
+white = "fg1"
+
 statusline_bg = "bg2"
 
 [highlights]
@@ -333,14 +335,14 @@ RenderMarkdownCodeInline = "- bg2"
 WhichKeyNormal = "fg1 statusline_bg"
 
 [globals]
-terminal_color_0          = "bg2"
+terminal_color_0          = "black"
 terminal_color_1          = "red"
 terminal_color_2          = "green"
 terminal_color_3          = "yellow"
 terminal_color_4          = "blue"
 terminal_color_5          = "purple"
 terminal_color_6          = "cyan"
-terminal_color_7          = "fg1"
+terminal_color_7          = "white"
 terminal_color_8          = "grey"
 terminal_color_9          = "red"
 terminal_color_10         = "green"

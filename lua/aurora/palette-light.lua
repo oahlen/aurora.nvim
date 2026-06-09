@@ -31,5 +31,6 @@ return {
     diff_text_bg = "#cbdee3",
     diff_delete_bg = "#ead1d7",
     black = "#e7e9ef",
+    white = "#394056",
     statusline_bg = "#e7e9ef",
 }
