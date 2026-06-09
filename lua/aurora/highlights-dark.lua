@@ -251,7 +251,7 @@ function M.set_highlights()
 end
 
 function M.set_globals()
-    vim.g.terminal_color_0 = "#252832"
+    vim.g.terminal_color_0 = "#2e323e"
     vim.g.terminal_color_1 = "#f5899b"
     vim.g.terminal_color_2 = "#a6d279"
     vim.g.terminal_color_3 = "#f5d189"
