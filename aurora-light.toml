@@ -8,9 +8,8 @@ red    = 350
 orange = 25
 yellow = 40
 green  = 90
-cyan   = 190
-sky    = 205
-blue   = 220
+cyan   = 195
+blue   = 215
 purple = 275
 
 [colors]
@@ -32,7 +31,6 @@ orange = "hsl($orange, 1, 0.32)"    # Check
 yellow = "hsl($yellow, 1, 0.30)"    # Check
 green  = "hsl($green, 0.75, 0.25)"  # Check
 cyan   = "hsl($cyan, 0.75, 0.30)"   # Check
-sky    = "hsl($sky, 0.75, 0.30)"    # Check
 blue   = "hsl($blue, 0.55, 0.48)"   # Check
 purple = "hsl($purple, 0.38, 0.50)" # Check
 
@@ -143,12 +141,12 @@ Directory    = "blue"
 Error        = "red"
 Function     = "blue"
 Identifier   = "fg1"
-Include      = "sky"
+Include      = "blue"
 Italic       = "fg1 - i"
 Keyword      = "purple"
-Operator     = "sky"
+Operator     = "fg1"
 PreProc      = "cyan"
-Special      = "sky"
+Special      = "cyan"
 Statement    = "purple"
 StorageClass = "purple"
 String       = "green"
@@ -180,11 +178,11 @@ Underlined   = "fg1 - u"
 "@function.macro"        = "link:PreProc"
 "@include"               = "link:Include"
 "@keyword"               = "link:Keyword"
-"@keyword.coroutine"     = "link:Special"
+"@keyword.coroutine"     = "link:Keyword"
 "@keyword.directive"     = "link:PreProc"
 "@keyword.function"      = "link:Keyword"
 "@keyword.import"        = "link:Include"
-"@keyword.operator"      = "link:Operator"
+"@keyword.operator"      = "link:Keyword"
 "@label"                 = "link:Special"
 "@method"                = "link:Function"
 "@module"                = "link:Type"
@@ -255,7 +253,7 @@ csvCol3 = "cyan"
 csvCol4 = "green"
 csvCol5 = "purple"
 csvCol6 = "orange"
-csvCol7 = "sky"
+csvCol7 = "cyan"
 csvCol8 = "red"
 
 # Plugins
@@ -301,7 +299,7 @@ NvimTreeDeletedIcon  = "red"
 NvimTreeGitMergeIcon = "yellow"
 NvimTreeGitDirtyIcon = "red"
 
-FzfLuaBorder       = "link:Comment"
+FzfLuaBorder       = "bg4"
 FzfLuaBufNr        = "green"
 FzfLuaFzfScrollbar = "grey"
 FzfLuaHeaderBind   = "link:Special"
