@@ -28,7 +28,7 @@ fg2 = "hsl($base, 0.25, 0.88)"
 
 red    = "hsl($red, 0.85, 0.75)"    # Check
 orange = "hsl($orange, 1, 0.72)"    # -
-yellow = "hsl($yellow, 0.85, 0.75)" # -
+yellow = "hsl($yellow, 0.80, 0.70)" # -
 green  = "hsl($green, 0.50, 0.65)"  # Check
 cyan   = "hsl($cyan, 0.65, 0.72)"   # -
 blue   = "hsl($blue, 0.85, 0.75)"   # Check
