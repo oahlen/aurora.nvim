@@ -1,1 +1,0 @@
-require("aurora").init("light")
