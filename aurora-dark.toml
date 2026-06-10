@@ -19,6 +19,7 @@ bg1 = "hsl($base, 0.15, 0.17)" # Cursorline
 bg2 = "hsl($base, 0.15, 0.21)" # Visual background
 bg3 = "hsl($base, 0.15, 0.25)" # Non text/Pmenu background 1.47:1
 bg4 = "hsl($base, 0.15, 0.36)" # LineNr 2.22:1
+bg5 = "hsl($base, 0.15, 0.44)" # Dim borders
 
 grey = "hsl($base, 0.15, 0.56)" # 4.55:1
 
@@ -293,7 +294,7 @@ NvimTreeDeletedIcon  = "red"
 NvimTreeGitMergeIcon = "yellow"
 NvimTreeGitDirtyIcon = "red"
 
-FzfLuaBorder       = "bg4"
+FzfLuaBorder       = "bg5"
 FzfLuaBufNr        = "green"
 FzfLuaFzfScrollbar = "grey"
 FzfLuaHeaderBind   = "link:Special"
