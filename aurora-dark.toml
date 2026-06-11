@@ -51,6 +51,17 @@ statusline_bg = "hsl($base, 0.15, 0.1)"
 
 [highlights]
 
+# Custom highlight groups
+Foreground = "fg1"
+
+Red     = "red"
+Orange  = "orange"
+Yellow  = "yellow"
+Green   = "green"
+Cyan    = "cyan"
+Blue    = "blue"
+Purple  = "purple"
+
 Normal      = "fg1 bg0"
 NormalNC    = "fg1 bg0"
 NormalFloat = "fg1 bg3"
@@ -206,7 +217,7 @@ Underlined   = "fg1 - u"
 "@tag.attribute"         = "link:Identifier"
 "@tag.delimiter"         = "link:Tag"
 "@tag"                   = "link:Tag"
-"@text"                  = "fg1"
+"@text"                  = "link:Foreground"
 "@text.title"            = "link:Title"
 "@text.uri"              = "link:Uri"
 "@text.warning"          = "link:Todo"
@@ -221,16 +232,16 @@ Underlined   = "fg1 - u"
 
 # Language specific highlights
 "@attribute.c_sharp"             = "link:Type"
-"@constant.bash"                 = "fg1"
+"@constant.bash"                 = "link:Identifier"
 "@constructor.lua"               = "link:Delimiter"
 "@property.json"                 = "link:Tag"
 "@property.toml"                 = "link:Tag"
 "@property.yaml"                 = "link:Tag"
-"@string.csv"                    = "fg1"
-"@variable.parameter.bash"       = "fg1"
-"@variable.parameter.powershell" = "fg1"
+"@string.csv"                    = "link:Foreground"
+"@variable.parameter.bash"       = "link:Identifier"
+"@variable.parameter.powershell" = "link:Identifier"
 
-justBody = "fg1"
+justBody = "link:Foreground"
 
 # Markup highlights
 "@markup.heading.1"  = "red"
