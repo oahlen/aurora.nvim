@@ -36,9 +36,11 @@ blue   = "hsl($blue, 0.55, 0.48)"   # Check
 purple = "hsl($purple, 0.38, 0.50)" # Check
 
 bg_red    = "mix(red, bg0, 0.1)"
-bg_green  = "mix(green, bg0, 0.1)"
 bg_yellow = "mix(yellow, bg0, 0.1)"
+bg_green  = "mix(green, bg0, 0.1)"
+bg_cyan   = "mix(cyan, bg0, 0.1)"
 bg_blue   = "mix(blue, bg0, 0.1)"
+bg_purple = "mix(purple, bg0, 0.1)"
 
 diff_add_bg    = "mix(green, bg0, 0.2)"
 diff_text_bg   = "mix(cyan, bg0, 0.2)"
@@ -251,9 +253,10 @@ justBody = "link:Foreground"
 "@markup.heading.4"  = "cyan"
 "@markup.heading.5"  = "blue"
 "@markup.heading.6"  = "purple"
-"@markup.list"       = "green"
 "@markup.link.label" = "blue - u"
 "@markup.link.url"   = "cyan - u"
+"@markup.list"       = "green"
+"@markup.quote"      = "link:Comment"
 
 # To align with BlinkCmp background
 "@markup.raw"        = "link:BlinkCmpDoc"
@@ -347,6 +350,12 @@ AgenticTitle                    = "bg0 cyan b"
 
 RenderMarkdownCode       = "- bg1"
 RenderMarkdownCodeInline = "- bg2"
+RenderMarkdownH1Bg       = "red bg_red"
+RenderMarkdownH2Bg       = "yellow bg_yellow"
+RenderMarkdownH3Bg       = "green bg_green"
+RenderMarkdownH4Bg       = "cyan bg_cyan"
+RenderMarkdownH5Bg       = "blue bg_blue"
+RenderMarkdownH6Bg       = "purple bg_purple"
 
 WhichKeyNormal = "fg1 statusline_bg"
 
