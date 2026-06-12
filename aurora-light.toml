@@ -253,8 +253,10 @@ justBody = "link:Foreground"
 "@markup.list"       = "green"
 "@markup.link.label" = "blue - u"
 "@markup.link.url"   = "cyan - u"
-"@markup.raw"        = "link:ColorColumn"
-"@markup.raw.block"  = "link:ColorColumn"
+
+# To align with BlinkCmp background
+"@markup.raw"        = "link:BlinkCmpDoc"
+"@markup.raw.block"  = "link:BlinkCmpDoc"
 
 "@punctuation.special.markdown" = "link:Comment"
 
