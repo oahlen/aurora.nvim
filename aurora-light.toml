@@ -14,12 +14,12 @@ purple = 275
 
 [colors]
 
-bg0 = "hsl($base, 0.2, 0.98)" # Main background
-bg1 = "hsl($base, 0.2, 0.95)" # Cursorline
-bg2 = "hsl($base, 0.2, 0.92)" # Statusline/Visual background
-bg3 = "hsl($base, 0.2, 0.86)" # Non text/Pmenu background 1.35:1
-bg4 = "hsl($base, 0.2, 0.72)" # LineNr 2.05:1
-bg5 = "hsl($base, 0.2, 0.64)" # Dim borders
+bg0 = "hsl($base, 0.20, 0.98)" # Main background
+bg1 = "hsl($base, 0.20, 0.95)" # Cursorline
+bg2 = "hsl($base, 0.20, 0.92)" # Statusline/Visual background
+bg3 = "hsl($base, 0.20, 0.86)" # Non text/Pmenu background 1.35:1
+bg4 = "hsl($base, 0.20, 0.72)" # LineNr 2.05:1
+bg5 = "hsl($base, 0.20, 0.64)" # Float borders
 
 grey = "hsl($base, 0.15, 0.48)" # 4.6:1
 
@@ -64,7 +64,8 @@ Purple  = "purple"
 
 Normal      = "fg1 bg0"
 NormalNC    = "fg1 bg0"
-NormalFloat = "fg1 bg3"
+NormalFloat = "fg1 bg0"
+FloatBorder = "bg5"
 
 EndOfBuffer = "bg3"
 NonText     = "bg3"
@@ -314,7 +315,7 @@ NvimTreeDeletedIcon  = "red"
 NvimTreeGitMergeIcon = "yellow"
 NvimTreeGitDirtyIcon = "red"
 
-FzfLuaBorder       = "bg5"
+FzfLuaBorder       = "link:FloatBorder"
 FzfLuaBufNr        = "green"
 FzfLuaFzfPrompt    = "cyan"
 FzfLuaFzfScrollbar = "grey"
