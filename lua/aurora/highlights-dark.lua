@@ -271,6 +271,7 @@ function M.set_highlights()
     hl(0, "RenderMarkdownH4Bg", { fg = "#89d7e6", bg = "#263139" })
     hl(0, "RenderMarkdownH5Bg", { fg = "#89b6f5", bg = "#262e3a" })
     hl(0, "RenderMarkdownH6Bg", { fg = "#d2a6f2", bg = "#2e2c3a" })
+    hl(0, "RenderMarkdownHint", { fg = "#d2a6f2", bg = "#2e2c3a" })
     hl(0, "WhichKeyNormal", { fg = "#c6cbdd", bg = "#16181d" })
 end
 

@@ -356,6 +356,7 @@ RenderMarkdownH3Bg       = "green bg_green"
 RenderMarkdownH4Bg       = "cyan bg_cyan"
 RenderMarkdownH5Bg       = "blue bg_blue"
 RenderMarkdownH6Bg       = "purple bg_purple"
+RenderMarkdownHint       = "purple bg_purple"
 
 WhichKeyNormal = "fg1 statusline_bg"
 
