@@ -249,7 +249,7 @@ justBody = "link:Foreground"
 dosiniHeader = "link:Special"
 dosiniLabel  = "link:Tag"
 
-dtLocalestringKey = "link:Tah"
+dtLocalestringKey = "link:Tag"
 
 # Markup highlights
 "@markup.heading.1"  = "red"
