@@ -246,8 +246,10 @@ Underlined   = "fg1 - u"
 
 justBody = "link:Foreground"
 
-dosiniHeader = "link:Tag"
+dosiniHeader = "link:Special"
 dosiniLabel  = "link:Tag"
+
+dtLocalestringKey = "link:Tah"
 
 # Markup highlights
 "@markup.heading.1"  = "red"
