@@ -243,6 +243,8 @@ Underlined   = "fg1 - u"
 "@variable.parameter.powershell" = "link:Identifier"
 
 dosiniLabel  = "link:Foreground"
+dosiniHeader = "link:Title"
+
 justBody = "link:Foreground"
 
 # Markup highlights
