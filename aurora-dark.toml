@@ -245,8 +245,6 @@ Underlined   = "fg1 - u"
 dosiniLabel  = "link:Foreground"
 dosiniHeader = "link:Title"
 
-justBody = "link:Foreground"
-
 # Markup highlights
 "@markup.heading.1"  = "red"
 "@markup.heading.2"  = "yellow"
