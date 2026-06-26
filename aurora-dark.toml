@@ -238,18 +238,12 @@ Underlined   = "fg1 - u"
 "@constant.bash"                 = "link:Identifier"
 "@constructor.lua"               = "link:Delimiter"
 "@property.json"                 = "link:Tag"
-"@property.toml"                 = "link:Tag"
-"@property.yaml"                 = "link:Foreground"
 "@string.csv"                    = "link:Foreground"
 "@variable.parameter.bash"       = "link:Identifier"
 "@variable.parameter.powershell" = "link:Identifier"
 
+dosiniLabel  = "link:Foreground"
 justBody = "link:Foreground"
-
-dosiniHeader = "link:Special"
-dosiniLabel  = "link:Tag"
-
-dtLocalestringKey = "link:Tag"
 
 # Markup highlights
 "@markup.heading.1"  = "red"
